@@ -12,4 +12,4 @@ WHERE
 
 --NM edit
 SELECT * FROM sofa.ADA_Attendance
-WHERE School_Day = '2025-01-14'
+WHERE School_Day = '2025-01-16'
