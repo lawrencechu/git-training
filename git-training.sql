@@ -3,8 +3,28 @@
 This is a test .sql file for Git training
 
 *****************************************/
+-- Original
+SELECT
+    *
+FROM Consolidated_Enrollment_Historic 
+WHERE
+    Academic_Year = 2024;
 
--- IW Edits
+--NM edit
+SELECT * FROM sofa.ADA_Attendance
+WHERE School_Day = '2025-01-16';
+
+--Rudy edit
+SELECT * FROM acad.sot_Course_credits
+WHERE [Course code] = 'LA504';
+
+--JB Edit
+SELECT a.*
+FROM acad.Tab_STAAR a
+WHERE
+    a.Academic_Year = 2025;
+
+-- IW Edits (to CEH pull)
 SELECT
 	CONCAT(Name_First, ' ', Name_Last) AS [Student Name]
 	, Student_ID_Local
