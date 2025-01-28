@@ -9,3 +9,4 @@ SELECT
 FROM Consolidated_Enrollment_Historic 
 WHERE
 	Academic_Year = 2024
+	AND Status = 'A'
